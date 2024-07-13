@@ -227,22 +227,22 @@ section {
 .item-img img {
   width: 100%;
   display: block;
-  transition: transform 0.3s ease-in-out; /* Transition effect for smooth animation */
+  transition: transform 0.3s ease-in-out; 
 }
 .item-img:hover img {
   transform: translateY(-100%);
 }
 
 .item-img:hover .carosel-content {
-  top: 0; /* Move carosel-content up to be visible */
+  top: 0; 
   opacity: 1;
 }
 
 .carosel-content {
   position: absolute;
-  top: 100%; /* Position it initially below the item-img */
+  top: 100%; 
   width: 18vw;
-  height: 60vh; /* Adjust height as needed */
+  height: 60vh; 
   background-color: #ff3147;
   color: white;
   opacity: 0;
@@ -283,7 +283,7 @@ section {
   max-width: 100vw;
   max-height: 100vh;
  
-  /* margin-right: 100px; */
+ 
 }
 .third-page h3{
   text-align: center; 
